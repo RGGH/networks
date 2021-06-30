@@ -9,7 +9,7 @@ from time import ctime
 
 # "https://www.ntppool.org/en/"
 
-def getNTPTime(host = "uk.pool.ntp.org"):
+def get_ntp_time(host = "uk.pool.ntp.org"):
 
         port = 123
         buf = 2048
@@ -30,4 +30,4 @@ def getNTPTime(host = "uk.pool.ntp.org"):
 
 if __name__ == "__main__":
 
-        print(getNTPTime())
+        print(get_ntp_time())
