@@ -19,7 +19,7 @@ def adddev(dev):
 #Device1::192.168.0.1
 #Device2::192.168.0.2
 #Device2::192.168.0.2
-file1 = open('C:\\Users\\Ian.Walker\\OneDrive - Gigaclear\\Documents\\hosts.txt', 'r')
+file1 = open('windows-path', 'r')
 Lines = file1.readlines()
 count = 0
 # Strips the newline character
